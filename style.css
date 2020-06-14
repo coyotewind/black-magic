@@ -45,6 +45,7 @@ body {
   overflow-y: scroll;
 }
 
+#post-list,
 #album-list {
   overflow-y: hidden;
 }
