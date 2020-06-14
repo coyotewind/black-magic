@@ -36,8 +36,6 @@ body {
 
 #app aside button:hover {
   opacity: 0.9;
-  /* color: #FFFFFF;
-  background-color: #1A1A1A; */
 }
 
 #user-list,
@@ -46,6 +44,10 @@ body {
   display: grid;
   grid-gap: 24px;
   overflow-y: scroll;
+}
+
+#album-list {
+  overflow-y: hidden;
 }
 
 #instructions {
@@ -150,7 +152,7 @@ body {
 }
 
 .post-card footer {
-  padding: 20px;
+  padding: 30px;
   background: #edd1e1;
 }
 
@@ -163,19 +165,27 @@ body {
   display: block;
 }
 
+.comments-open div {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
 #album-list {
   grid-template-rows: repeat(auto-fit, auto);
 }
 
 .album-card {
   display: grid;
-  grid-template-rows: 36px auto;
+  grid-template-rows: 90px auto;
   color: #ffe;
 }
 
 .album-card header {
-  background: #111;
-  padding: 12px;
+  background: #5a1d41;
+  padding: 30px;
+  text-transform: capitalize;
 }
 
 .photo-list {
@@ -183,8 +193,8 @@ body {
   flex-direction: row;
   align-items: stretch;
   overflow-x: scroll;
-  background: #999;
-  padding: 12px;
+  background: #edd1e1;
+  padding: 20px 15px;
 }
 
 .photo-card {
@@ -194,22 +204,26 @@ body {
   background: #fff;
 }
 
-.photo-card:not(:last-of-type) {
-  margin-right: 24px;
+.photo-card {
+  margin: 0 20px;
 }
 
 .photo-card figure {
   color: black;
-  font-size: 18px;
-  margin-top: 12px;
+  font-size: 16px;
+  margin-top: 20px;
   text-align: center;
   text-decoration: none;
 }
 
 .photo-card a {
-  padding: 12px;
+  padding: 20px 20px 0;
   display: flex;
   flex-direction: column;
   text-decoration: none;
   cursor: pointer;
+}
+
+.photo-card img {
+  width: 250px;
 }
