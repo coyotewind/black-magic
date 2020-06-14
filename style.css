@@ -194,7 +194,7 @@ body {
   align-items: stretch;
   overflow-x: scroll;
   background: #edd1e1;
-  padding: 20px 15px;
+  padding: 30px 15px;
 }
 
 .photo-card {
@@ -217,7 +217,7 @@ body {
 }
 
 .photo-card a {
-  padding: 20px 20px 0;
+  padding: 20px 20px 0  ;
   display: flex;
   flex-direction: column;
   text-decoration: none;
