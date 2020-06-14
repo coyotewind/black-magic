@@ -14,8 +14,9 @@ body {
 #app {
   display: grid;
   grid-template-columns: 480px minmax(480px, 1fr);
-  grid-gap: 8px;
-  background: #dddddd;
+  grid-gap: 15;
+  background: #  background-color: #34949e;
+  ;
   height: 100%;
 }
 
