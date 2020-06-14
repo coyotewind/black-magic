@@ -171,7 +171,7 @@ function renderPost(post) {
         <div class="post-card">
             <header>
                 <h3>${post.title} </h3>
-                <h3>by ${post.user.username}</h3>
+                <h4>~ By ${post.user.username}</h4>
             </header>
             <p>${post.body}</p>
             <footer>
