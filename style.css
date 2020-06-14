@@ -56,6 +56,7 @@
     background: #eee;
     padding: 24px;
     overflow-y: scroll;
+    width: calc(100vh - 360px);
   }
   
   #app main > section:not(.active) {
