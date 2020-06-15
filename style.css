@@ -41,7 +41,9 @@ body {
 #user-list,
 #post-list,
 #album-list {
+  display: grid;
   grid-gap: 24px;
+  overflow-y: scroll;
 }
 
 #post-list,
