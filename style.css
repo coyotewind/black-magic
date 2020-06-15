@@ -22,7 +22,6 @@ body {
   background-color: #34949e;
   height: 100vh;
   padding: 24px 24px 0;
-  margin-bottom: 24px;
   grid-column: 1;
   justify-content: center;
 }
@@ -42,6 +41,7 @@ body {
 #post-list,
 #album-list {
   /* display: grid; */
+  margin-bottom: 24px;
   grid-gap: 24px;
   overflow-y: scroll;
 }
