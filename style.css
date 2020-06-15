@@ -21,7 +21,8 @@ body {
 #app > aside {
   background-color: #34949e;
   height: 100vh;
-  padding: 24px;
+  padding: 24px 24px 0;
+  margin-bottom: 24px;
   grid-column: 1;
   justify-content: center;
 }
@@ -40,9 +41,7 @@ body {
 #user-list,
 #post-list,
 #album-list {
-  display: grid;
   grid-gap: 24px;
-  overflow-y: scroll;
 }
 
 #post-list,
