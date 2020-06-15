@@ -20,7 +20,7 @@ body {
 
 #app > aside {
   background-color: #34949e;
-  height: calc(100vh - 24px);
+  height: 100vh;
   padding: 24px;
   grid-column: 1;
   justify-content: center;
@@ -66,7 +66,7 @@ body {
 #app main {
   flex: 1;
   grid-column: 2;
-  height: calc(100vh - 24px);
+  height: 100vh;
   background: #fee2b3;
   padding: 24px;
   overflow-y: scroll;
