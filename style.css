@@ -131,6 +131,7 @@ body {
 
 .post-card {
   background: #FFFFFF;
+  margin-bottom: 24px;
 }
 
 .post-card header {
@@ -181,6 +182,7 @@ body {
   display: grid;
   grid-template-rows: 90px auto;
   color: #ffe;
+  margin-bottom: 24px;
 }
 
 .album-card header {
