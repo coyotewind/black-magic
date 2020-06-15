@@ -41,7 +41,6 @@ body {
 #post-list,
 #album-list {
   /* display: grid; */
-  margin-bottom: 24px;
   grid-gap: 24px;
   overflow-y: scroll;
 }
@@ -80,6 +79,7 @@ body {
 .user-card {
   background: #edd1e1;
   font-family: sans-serif;
+  margin-bottom: 24px;
 }
 
 .user-card header,
