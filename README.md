@@ -8,7 +8,7 @@
 
 ### What I Learned:
 
-- How to work with to use promises, specifically, fetch(0).then.catch
+- How to work with to use promises, specifically, fetch(0).then().catch().
 - How to form complex URL structures to access different end-points of an API
 - How to loop through a returned promise to display structured data on a page.
 
@@ -18,4 +18,4 @@
 
 ### How I Would Uplevel It:
 
-- I could perhaps improved the UX to me more user friendly
+- I could perhaps improved the UX to me more user friendly.
